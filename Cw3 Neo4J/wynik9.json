@@ -1,0 +1,156 @@
+﻿[
+  {
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Capitan America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Stephen McFeely",
+"born": 1969
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Capitan America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 171,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christopher Markus",
+"born": 1970
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Capitan America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 170,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Joe Johnston",
+"born": 1950
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Capitan America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans",
+"born": 1981
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Capitan America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Joe Simon",
+"born": 1913
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Capitan America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    }
+  },
+  {
+    "m": {
+"identity": 169,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Capitan America: The First Avenger",
+"released": 2011
+      }
+    },
+    "connected": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Samuel L. Jackson",
+"born": 1948
+      }
+    }
+  }
+]
