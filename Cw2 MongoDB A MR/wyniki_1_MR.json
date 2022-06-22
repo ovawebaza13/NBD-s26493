@@ -1,0 +1,3 @@
+{ "result" : "avg_height_weight", "ok" : 1 }
+{ "_id" : "Male", "value" : { "avgWeight" : NaN, "avgHeight" : NaN } }
+{ "_id" : "Female", "value" : { "avgWeight" : NaN, "avgHeight" : NaN } }

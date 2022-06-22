@@ -1,0 +1,9 @@
+> db.people.update(
+{ first_name: "Antonio" },
+{ $set:
+{
+hobby:"pingpong"
+}
+}
+)
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })

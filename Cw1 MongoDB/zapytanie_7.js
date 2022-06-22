@@ -1,0 +1,1 @@
+db.people.remove( { hight: { $gt: "190" } } )

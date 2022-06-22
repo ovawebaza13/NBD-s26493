@@ -1,0 +1,2 @@
+> db.people.remove( { hight: { $gt: "190" } } )
+WriteResult({ "nRemoved" : 0 })

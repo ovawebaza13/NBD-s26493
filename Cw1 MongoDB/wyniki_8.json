@@ -1,0 +1,9 @@
+> db.people.update(
+{ city: "Moscow" },
+{ $set:
+{
+location:{city:"Moskwa"}
+}
+}
+)
+WriteResult({ "nMatched" : 0, "nUpserted" : 0, "nModified" : 0 })
