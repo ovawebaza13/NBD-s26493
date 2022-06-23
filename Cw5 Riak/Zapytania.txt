@@ -1,0 +1,24 @@
+1) curl -XPUT -i -H "Content-Type: application/json"  -d "{'brand':'BMW','model':'323','year':'1998','color':'silver'}" http://localhost:8098/buckets/s26493/keys/bmw
+curl -XPUT -i -H "Content-Type: application/json"  -d "{'brand':'Seat','model':'ibiza','year':'1997','color':'green'}" http://localhost:8098/buckets/s26493/keys/seat
+curl -XPUT -i -H "Content-Type: application/json"  -d "{'brand':'Fiat','model':'panda','year':'2014','color':'yellow'}" http://localhost:8098/buckets/s26493/keys/fiat
+curl -XPUT -i -H "Content-Type: application/json"  -d "{'brand':'Subaru','model':'impreza','year':'2001','color':'blue'}" http://localhost:8098/buckets/s26493/keys/subaru
+curl -XPUT -i -H "Content-Type: application/json"  -d "{'brand':'Nissan','model':'juke','year':'2011','color':'red'}" http://localhost:8098/buckets/s26493/keys/nissan
+
+2) curl -i http://localhost:8098/buckets/s26493/keys/bmw
+
+3) curl -XPUT -i -H "Content-Type: application/json"  -d "{'brand':'BMW','model':'323','year':'1998','color':'silver','kid_car':'yes'}" http://localhost:8098/buckets/s26493/keys/bmw
+
+4) curl -XPUT -i -H "Content-Type: application/json"  -d "{'brand':'Subaru','model':'impreza','color':'blue'}" http://localhost:8098/buckets/s26493/keys/subaru
+
+5) curl -XPUT -i -H "Content-Type: application/json"  -d "{'brand':'Fiat','model':'panda','year':'2014','color':'red'}" http://localhost:8098/buckets/s26493/keys/fiat
+
+6) curl -XDELETE -i http://localhost:8098/buckets/s26493/keys/nissan
+
+7) curl -i http://localhost:8098/buckets/s26493/keys/nissan
+
+8) curl -XPUT -i -H "Content-Type: application/json"  -d '{"brand":"Jaguar"}' http://localhost:8098/buckets/s26493/keys
+
+9) curl -XGET -i http://localhost:8098/buckets/s26493/keys?keys=true
+curl -XGET -i http://localhost:8098/buckets/s26493/keys/jaguar
+
+10) curl -XDELETE -i http://localhost:8098/buckets/s26493/keys/jaguar

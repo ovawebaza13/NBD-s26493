@@ -1,0 +1,6 @@
+HTTP/1.1 405 Method Not Allowed
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Wed, 22 Jun 2022 23:47:26 GMT
+Content-Type: text/html
+Content-Length: 177
+Allow: GET, HEAD

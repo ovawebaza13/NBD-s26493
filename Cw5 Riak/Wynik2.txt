@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/ft6vXWvGwOCnlMGUyJjHyrCCL+QWXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s26493>; rel="up"
+Last-Modified: Wed, 22 Jun 2022 23:44:24 GMT
+ETag: "5ot68P6St7pJqp263wRMNv"
+Date: Wed, 22 Jun 2022 23:44:38 GMT
+Content-Type: application/json
+Content-Length: 60
+
+{'brand':'BMW','model':'323','year':'1998','color':'silver'}
