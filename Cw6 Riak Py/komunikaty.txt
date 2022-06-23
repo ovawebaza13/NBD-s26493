@@ -1,0 +1,6 @@
+### wypisanie dokumentu ###
+{"body": "Oh, no. It is a means to summon us.", "author": "Clive Barker", "isbn": "978-0-06100-282-3", "copies_owned": 2, "title": "Hellraiser"}
+### modyfikacja dokumentu ###
+{"body": "Oh, no. It is a means to summon us.", "title": "Powrot z piekla", "isbn": "978-0-06100-282-3", "copies_owned": 2, "author": "Clive Barker"}
+### Kasowanie z bazy ###
+False
